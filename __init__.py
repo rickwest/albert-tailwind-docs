@@ -7,14 +7,15 @@ import urllib.parse
 import html
 from algoliasearch.search_client import SearchClient
 
-from albertv0 import *
+from albert import *
 
-__iid__ = "PythonInterface/v0.2"
+__title__ = "Tailwind CSS Docs"
 __prettyname__ = "Tailwind CSS Docs"
-__version__ = "0.1.0"
-__trigger__ = "tw "
-__author__ = "Rick West"
-__dependencies__ = ["algoliasearch"]
+__doc__ = "Albert extension for quickly and easily searching Tailwind CSS Documentation"
+__version__ = "0.4.1"
+__triggers__ = "tw "
+__authors__ = "Rick West"
+__py_dep__ = ["algoliasearch"]
 
 
 client = SearchClient.create("BH4D9OD16A", "3df93446658cd9c4e314d4c02a052188")
